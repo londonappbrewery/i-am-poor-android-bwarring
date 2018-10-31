@@ -18,7 +18,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
-        android:text="I Am Poor"
+        android:text="@string/title"
         android:textColor="#000000"
         android:textSize="50sp" />
 
@@ -29,5 +29,6 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="41dp"
+        android:contentDescription="@string/coal_image_description"
         app:srcCompat="@drawable/coal" />
 </RelativeLayout>
